@@ -12,7 +12,7 @@ h3{font-size: 20px;}
 }
 
 .a{text-decoration: none;
-    color: none;}
+        color: none;}
 
 .internet{font-style: italic;
         font-weight: bold;
@@ -20,8 +20,8 @@ h3{font-size: 20px;}
 }
 
 .sea {font-style: italic;
-    font-weight: bold;
-    color: #ff0000;
+        font-weight: bold;
+        color: #ff0000;
 }
 
 #int-un{text-decoration: underline;
@@ -39,15 +39,15 @@ h3{font-size: 20px;}
 #history-all p{text-indent: 30px;}
 
 #kind{font-weight: bold;
-    color: #00ff00;
+        color: #00ff00;
 }
 
 #act{font-style: italic;
-    color: #0000ff;
+        color: #0000ff;
 }
 
 #cha{font-weight: bold;
-    color: #ff0000;    
+        color: #ff0000;    
 }
 
 ul{list-style-type: square;}
