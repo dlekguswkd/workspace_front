@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{font-family: "맑은 고딕";}
+*{font-size: 17px;}
+
+h2{font-size: 25px;}
+h3{font-size: 20px;}
+
+#title{font-family: 궁서;
+        font-size: 30px;
+        letter-spacing: 15px;
+}
+
+.a{text-decoration: none;
+    color: none;}
+
+.internet{font-style: italic;
+        font-weight: bold;
+        color: #0000ff;
+}
+
+.sea {font-style: italic;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+#int-un{text-decoration: underline;
+        color: #00ff00;
+}
+
+#milnet{font-weight: bold;
+        color: #ff0000;
+}
+
+#int-num{text-decoration: underline;}
+
+#history-all{background-color: #d9d9d9;}
+
+#history-all p{text-indent: 30px;}
+
+#kind{font-weight: bold;
+    color: #00ff00;
+}
+
+#act{font-style: italic;
+    color: #0000ff;
+}
+
+#cha{font-weight: bold;
+    color: #ff0000;    
+}
+
+ul{list-style-type: square;}
+
+ol{list-style-type: none;}
