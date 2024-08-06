@@ -53,3 +53,22 @@ h3{font-size: 20px;}
 ul{list-style-type: square;}
 
 ol{list-style-type: none;}
+
+a:link{color: #ffffff;
+        text-decoration: none;
+}
+a:visited{color: #ffffff;}
+a:hover{color: #0000ff;
+        text-decoration: underline;
+}
+a:active{color: #0000ff;
+        text-decoration: underline;
+}
+
+table>tbody>tr:hover{background-color: #edd3ed;} 
+table>thead>tr{background-color: #c8ebfa;}
+
+.right{text-align: right;}
+.right::before{content: "약 ";}
+.right::after{content: " (MB/초)";}
+
