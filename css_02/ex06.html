@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+
+        <style>
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+
+            .btn-gray{
+                /* a가 인라인이라서 크기가 안먹기때문에 display 인라인블럭해주기 */
+                display: inline-block; 
+                width: 200px;
+                height: 50px;
+                background-color: #bfbfbf;
+                
+                font-size: 25px;
+                text-align: center;
+                line-height: 50px; /* 세로높이 줄간격 같은숫자일때 세로가운데정렬 */
+
+                cursor: pointer;
+
+                border: 3px solid #a6a6a6;
+                border-radius: 5px;
+            }
+
+            .btn-gray:hover{
+                background-color: #7c7c7c;
+                border: 3px solid #444444;
+                color: #ffffff;
+            }
+
+            .btn-red {
+                width: 200px;
+                height: 50px;
+                background-color: #f8a1a4;
+
+                font-size: 25px;
+                text-align: center;
+                line-height: 50px;
+
+                cursor: pointer;
+                
+                border: 3px solid #f47378;
+                border-radius: 5px;
+            }
+
+            .btn-red:hover {
+                background-color: #b21016;
+                border: 3px solid #77070b;
+                color: #ffffff;
+            }
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <div class="btn-gray">저장버튼</div>
+
+        <div class="btn-red">삭제버튼</div>
+        <br>
+
+        <div>
+            <button class="btn-gray">저장버튼</button>
+            <button class="btn-red">삭제버튼</button>
+        </div>
+        
+        <br>
+        <a class="btn-gray" href="">회원가입</a>
+    
+    </body>
+</html>
+
+<!-- 블록: 아래배치 가로 세로 (p  div)
+    
+    인라인 블록: 옆으로 배치 가로 세로 (form  button  input  select  img)
+
+    인라인: 옆으로 배치 가로x 세로x (span)
+
+    -------------------------------------------------
+
+    html 은 의미
+    css 은 꾸미기
+
+-->
