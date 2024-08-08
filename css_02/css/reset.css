@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* 기본 요소 초기화 */
+body, div, p, dl, dt, ol, ul, li,
+h1, h2, h3, h4, h5, h6, 
+form, input, select, textarea, button,
+fieldset, legend,  
+table, thead, tbody, tfoot, tr, th, td,   
+header, footer, main, nav, section, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li, ol>li {
+    list-style-type: none;
+}
+
+/* clearfix */
+/* .clearfix{*zoom:1;}  -- exployer에 쓰이는 용어라서 빨간불들어와서 주석처리해둠 */
+.clearfix:before, .clearfix:after {
+    display: block; 
+    content: ""; 
+    line-height: 0;
+}
+.clearfix:after {clear: both;}

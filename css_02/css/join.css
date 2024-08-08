@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    background-color: #808080;
+    padding: 10px;
+}
+
+.content {
+    width: 600px;
+    background-color: #fff;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content ol {
+    padding: 10px 0px;
+}
+
+.content ol>li {
+    float: left;
+}
+
+.content ol>li::after {
+    content: ">";
+    padding: 5px;
+}
+
+.content ol>li:last-child::after {
+    content: "";
+    padding: 5px;
+}
+
+.content .form-group {
+    padding-bottom: 10px;
+    margin: 10px 0px;
+    border-bottom: 1px solid;
+}
+
+.content .form-group .form-text{
+    display: inline-block; 
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+
+input, textarea, select {
+    font-family: "맑은 고딕"; 
+    font-size: 15px; 
+}
+
+/* 아이디 입력 */
+.content .form-group #txt-id {
+    width: 180px;
+}
+
+/* 패스워드 입력 */
+.content .form-group #txt-pw {
+    width: 180px;
+}
+
+/* 이름 입력 */
+.content .form-group #txt-name {
+    width: 180px;
+}
+
+/* 첨부파일 */
+
+
+/* 주소입력 */
+.content .form-group #txt-address2 {
+    width: 400px;
+    margin: 10px 0px 0px 125px;
+}
+
+
+/* 이동통신사 선택 */
+.content .form-group #sel-board {
+    width: 120px;
+}
+
+/* 나이선택 */
+.content .form-group input[name="age"] {
+    margin-right: 12px;
+    vertical-align: middle;     /* 세로(위아래) 가운데 */
+    width: 13px;
+    height: 13px;
+}
+
+/* 혈액형 선택 */
+.content .form-group input[name="blood"] {
+    margin-right: 12px;
+    vertical-align: middle;     /* 세로(위아래) 가운데 */
+    width: 13px;
+    height: 13px;
+    
+}
+
+/* 취미 선택 */
+.content .form-group input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* ----------------------안 됐 음 ----------------------- */
+/* radio, check 의 label:맑은고딕 15px */
+radio check {
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+/* ----------------------안 됐 음 ----------------------- */
+
+
+/* 자기소개 내용 */
+.content .form-group #txt-content {
+    width: 400px;
+    height: 80px;
+}
+
+/* 버튼 영역 */
+.content .btn-area {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    
+}
+
+/* 버튼 */
+.content .btn-area button {
+    width: 120px;
+    height: 30px;
+}

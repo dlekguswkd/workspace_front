@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    background-color: #808080;
+    padding: 10px;
+}
+
+.content {
+    width: 700px;
+    background-color: #fff;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content ol {
+    padding: 10px 0px;
+}
+
+.content ol>li {
+    float: left;
+}
+
+.content ol>li::after {
+    content: ">";
+    padding: 10px;
+}
+
+.content ol>li:last-child::after {
+    content: "";
+    padding: 10px;
+}
+
+.content .form-group {
+    /* 블럭 margin의 위아래는 겹쳐짐 한쪽에 줄만큼 줘버리기 */
+    margin-bottom: 10px;
+}
+
+/* 여러곳에서 사용 */
+.content .form-group .form-text{
+    /* label은 인라인 
+    인라인은 너비가 설정이 안되기 때문에 인라인 블럭으로 바꿔줘야함 */
+    display: inline-block; 
+    width: 80px;
+    text-align: left;
+}
+
+/* 게시판 선택 */
+.content .form-group #sel-board {
+    width: 200px;
+}
+
+/* 제목 입력 */
+.content .form-group #txt-title {
+    width: 600px;
+}
+
+/* 패스워드 입력 */
+.content .form-group #txt-pw {
+    width: 196px;
+}
+
+
+/* 공개범위 라디오버튼 name속성 사용 */
+/* input중에서 이름이 scope인거 */
+.content .form-group input[name="scope"] {
+    margin-right: 10px;
+    vertical-align: middle;     /* 세로(위아래) 가운데 */
+    width: 13px;
+    height: 13px;
+}
+
+/* 허용범위 체크박스 type속성 사용 */
+/* 다른 체크박스도 같이 적용될수 있다 (공부차원 사용해봤음) */
+.content .form-group input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 내용 */
+.content .form-group #txt-content {
+    width: 686px;
+    height: 80px;
+}
+
+/* 첨부파일 */
+
+
+/* 버튼 영역 */
+.content .btn-area {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+
+/* 버튼 */
+.content .btn-area button {
+    width: 60px;
+    height: 30px;
+}
+
