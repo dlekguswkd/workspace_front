@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* 레이아웃 --------------------------------------------------------*/
+#wrap {
+    /* auto는 화면크기에 따라 가운데에 패치 (블럭일때만 가능) */
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#wrap #header {
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+#wrap #nav {
+    border-bottom: 1px solid #ddd;
+}
+
+/* 가로1단 메인페이지 */
+#wrap #contents {
+    padding: 30px 20px;
+}
+
+/* 가로2단 모든페이지 */
+#wrap #contents2 {
+    padding: 20px 0px;
+}
+
+#wrap #contents2 #aside {
+    float: left;
+    width: 180px;
+}
+
+#wrap #contents2 #main {
+    box-sizing: border-box;
+    width: 800px;
+    float: left;
+    margin-left: 20px;
+}
+
+#wrap #footer {
+    padding: 15px 0px;
+    background-color: #e7eaed;
+    text-align: center;
+}
+
+/* //레이아웃 끝--------------------------------------------------------*/
+
+
+/* 헤더 */
+#header h1 {
+    float: left;
+    font-size: 35px;
+    color: #79b30b;
+    font-weight: bold;
+}
+
+#header ul {
+    float: right;
+    margin-top: 14px;
+}
+
+/* 로그인 회원가입 */
+#header ul>li {
+    float: left;
+    padding: 3px 5px;
+    margin-left: 10px;
+
+    background-color: #fff;
+    font-size: 10px;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+}
+
+
+/* 네비(상단메뉴) */
+#nav ul {
+    padding: 15px 0px;
+}
+
+/* 메뉴선택 */
+#nav ul>li {
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    margin: 15px 0px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* 푸터 (하단바) */
+#footer p {
+    font-size: 15px;
+}
+
+

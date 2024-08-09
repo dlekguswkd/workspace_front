@@ -45,6 +45,8 @@ body {
     display: inline-block; 
     width: 120px;
     text-align: center;
+    vertical-align: top;
+    margin-top: 5px;
     font-size: 12px;
 }
 
@@ -106,13 +108,12 @@ input, textarea, select {
     vertical-align: middle;
 }
 
-/* ----------------------안 됐 음 ----------------------- */
+/* ~은 형제 */
 /* radio, check 의 label:맑은고딕 15px */
-radio check {
+span~label {
     font-family: "맑은 고딕";
     font-size: 15px;
 }
-/* ----------------------안 됐 음 ----------------------- */
 
 
 /* 자기소개 내용 */
