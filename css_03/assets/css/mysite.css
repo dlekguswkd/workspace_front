@@ -75,7 +75,7 @@
 
 /* 네비(상단메뉴) */
 #nav ul {
-    padding: 15px 0px;
+    padding: 13px 0px;
 }
 
 /* 메뉴선택 */
@@ -83,10 +83,11 @@
     box-sizing: border-box;
     float: left;
     width: 250px;
-    margin: 15px 0px;
+    margin: 10px 0px;
 
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
