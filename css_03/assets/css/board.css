@@ -185,3 +185,104 @@
 #main #title-print {
     width: 698px;
 }
+
+
+
+/* ------------------------------------------------------------- */
+/* gallery.html */ 
+#main #btn-image {
+    float: right;
+}
+
+#main #btn-image button{
+    width: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 13px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#main #gallery-image {
+    float: left;
+}
+
+#main #gallery-image li {
+    float: left;
+    margin: 3px;
+    padding: 0px 5px;
+    border: 1px solid #6d6d6d;
+}
+
+#main #gallery-image img {
+    width: 150px;
+}
+
+
+/* ------------------------------------------------------------- */
+/* register.html */ 
+/* 방명록 */
+#main #guest-info {
+    float: left;
+    margin: 15px 0px 35px 0px;
+}
+
+#main #guest-info table tr>th{
+    border: 1px solid #6d6d6d;
+    padding: 5px 30px 5px 2px;
+}
+
+#main #guest-info table tr>td{
+    border: 1px solid #6d6d6d;
+}
+
+
+#main #guest-info input[type="text"] {
+    margin: 3px 3px;
+    vertical-align: middle;     
+    width: 310px;
+    height: 18px;
+}
+
+#main #guest-info input[type="password"] {
+    margin: 3px 3px;
+    vertical-align: middle;     
+    width: 310px;
+    height: 18px;
+}
+
+#main #guest-info table #register-write {
+    width: 800px;
+    height: 150px;
+    margin: 4px;
+}
+
+#main #guest-info table #btn-register {
+    width: 110px;
+    margin: 5px 0px 5px 350px;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* 히스토리 */
+#main #guest-history {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#main #guest-history table {
+    margin-bottom: 15px;
+}
+
+#main #guest-history table tr>th{
+    border: 1px solid #6d6d6d;
+}
+
+#main #guest-history table tr>td{
+    border: 1px solid #6d6d6d;
+    padding: 10px;
+}

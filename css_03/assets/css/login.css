@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+/* aside */
+#aside h2 {
+    width: 100%;
+    height: 60px;
+    background-color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+}
+
+#aside ul>li {
+    margin-top: 5px;
+    padding: 8px 0px 8px 10px;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+}
+
+
+#main #title {
+    box-sizing: border-box;
+    width: 800px;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#main #title h3 {
+    float: left;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+}
+
+#main #title ol {
+    float: right;
+    margin-top: 14px;
+}
+
+#main #title ol>li {
+    float: left;
+}
+
+#main  #title ol>li::after {
+    content: ">";
+    margin: 0px 10px 0px 10px;
+}
+
+#main #title ol>li:last-child::after {
+    content: "";
+    margin-right: 0px;
+}
+
+
+/* ------------------------------------------------------------- */
+/* loginForm.html */ 
+/* 가운데 */
+#main #login-form {
+    float: left;
+    width: 500px;
+    height: 360px;
+    margin: 20px 0px 30px 120px;
+    border: 1px solid #929292;
+}
+
+#main #login-form .form-group {
+    margin: 20px 0px 0px 50px;
+}
+
+#main #login-form .form-text {
+    margin-right: 30px;
+    display: inline-block; 
+    width: 70px;
+    text-align: right;
+}
+
+#main #login-form .form-group:first-child {
+    margin-top: 50px;
+}
+
+#main #btn-join {
+    margin: 50px 0px 40px 200px;
+}
+
+#main #btn-join button {
+    width: 100px;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------- */
+/* loginmodify.html */ 
+#main #modify-form {
+    float: left;
+    width: 500px;
+    height: 320px;
+    margin: 20px 0px 30px 120px;
+    border: 1px solid #929292;
+}
+
+#main #modify-form .form-group {
+    margin: 20px 0px 0px 70px;
+}
+
+#main #modify-form .form-text {
+    margin-right: 30px;
+    display: inline-block; 
+    width: 70px;
+    text-align: right;
+}
+
+#main #modify-form .form-group:first-child {
+    margin-top: 50px;
+}
+
+#main #btn-modify {
+    margin: 40px 0px 40px 200px;
+}
+
+#main #btn-modify button {
+    width: 120px;
+    padding: 6px 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------- */
+/* login.html */ 
+#main #login-form {
+    float: left;
+    width: 500px;
+    height: 230px;
+    margin: 20px 0px 30px 120px;
+    border: 1px solid #929292;
+}
+
+#main #login-form .form-group {
+    margin: 20px 0px 0px 70px;
+}
+
+#main #login-form .form-text {
+    margin-right: 30px;
+    display: inline-block; 
+    width: 70px;
+    text-align: right;
+}
+
+#main #login-form .form-group:first-child {
+    margin-top: 50px;
+}
+
+#main #btn-login {
+    margin: 40px 0px 40px 200px;
+}
+
+#main #btn-login button {
+    width: 120px;
+    padding: 6px 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
