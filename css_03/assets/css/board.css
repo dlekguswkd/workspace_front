@@ -123,3 +123,65 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
+
+
+/* ------------------------------------------------------------- */
+/* read.html */ 
+#main #contents3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#main #contents3 ol>li{
+    padding-top: 20px;
+}
+
+#main #contents3 #info-head {
+    float: left;
+    margin-right: 50px;
+
+}
+
+#main #contents3 #info-content {
+    float: left;
+}
+
+#main #info-text {
+    width: 800px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0px 20px 5px;
+}
+
+/* 목록 수정버튼 */
+#main #btn-two {
+    float: right;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+/* ------------------------------------------------------------- */
+/* write.html */ 
+#main #title-bar {
+    width: 723px;
+    margin-left: 35px;
+}
+
+#main #title-write {
+    float: left;
+    margin-top: 20px;
+}
+
+#main #title-textarea {
+    width: 798px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+
+/* ------------------------------------------------------------- */
+/* modify.html */ 
+#main #title-print {
+    width: 698px;
+}
