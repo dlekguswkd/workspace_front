@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+/* align-items 는 교차축 속성값 */
+
+/* 가로가 주축 */
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;  /*  가로 맨 앞 */
+    /* align-items: flex-start;        세로 맨위만 위치함 */
+    /* align-items: flex-end;          맨아래에 위치함 */
+    align-items: center;      /*  세로축의 센터 */
+    /* justify-content: flex-end;
+    align-items: flex-start;   이거 두개하면 오른쪽 위*/
+    /* align-items: baseline;      글자 아래선 기준 */
+    /* align-items: stretch;       이게 기본값 위아래 꽉채워 */
+}
+
+/* 세로가 주축 */
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;  /*  맨위   위아래 */
+    /* align-items: flex-start;       맨왼쪽  좌우 */
+    align-items: center; 
+    /* align-items: baseline;  그냥 컨텐츠 크기만큼됨 거의 안먹음 */
+    /* align-items: stretch;       이게 기본값 양옆에 꽉채워 */
+}
+
+
+.item1 {
+    border: 3px solid red;
+    font-size: 15px;
+}
+
+.item2 {
+    border: 3px solid blue;
+    font-size: 20px;
+}
+
+.item3 {
+    border: 3px solid green;
+    font-size: 25px;
+}
