@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: nowrap;      이게 기본값 줄바꿈 없는것 */
+    flex-wrap: wrap;    /*   줄바꿈해주는것 */
+    /* 줄이 역순으로 쌓임 (넘어갔을때 쌓이는 방향이 반대) 아래로쌓여야하면 위로쌓임 */
+    /* flex-wrap: wrap-reverse;         */
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: nowrap;      이게 기본값 줄바꿈 없는것 */
+    flex-wrap: wrap;  /* 줄바꿈해주는것 */
+    /* flex-wrap: wrap-reverse; */
+}
+
+.item1 {
+    border: 3px solid red;
+}
+
+.item2 {
+    border: 3px solid blue;
+}
+
+.item3 {
+    border: 3px solid green;
+}

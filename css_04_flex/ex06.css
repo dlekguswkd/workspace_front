@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    border: 3px solid red;
+    /* width: 200px;   시작했을때 무조건 고정*/
+    /* flex-basis: 200px; 켜졌을때 지금만 외부가 변하면 변함*/
+    /* flex-basis: auto;  기본값 자동 컨텐츠양만큼 알아서 */
+    /* flex-basis: 0;  가로축을 0으로 계산 보이는건 컨텐츠양만큼  */
+}
+
+.item2 {
+    border: 3px solid blue;
+}
+
+.item3 {
+    border: 3px solid green;
+}

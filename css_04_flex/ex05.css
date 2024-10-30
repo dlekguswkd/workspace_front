@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    border: 3px solid red;
+}
+
+.item2 {
+    border: 3px solid blue;
+    /* align-self: flex-start;     얘만 따로 조절하고싶을때  */
+    align-self: flex-start; 
+}
+
+.item3 {
+    border: 3px solid green;
+    /* align-self: flex-end; */
+    align-self: flex-end; 
+}
