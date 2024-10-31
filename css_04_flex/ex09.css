@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+
+/* 주축방향 가로
+교차축으로 일이 진행 세로 */
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;   /*  교차축의 기준 */
+
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    align-content: stretch; /*   align-items: flex-start; 이게 우선적 이걸 지워야 작동함 */
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    align-content: stretch; /*   align-items: flex-start; 이게 우선적 이걸 지워야 작동함 */
+}
+
+.item1 {
+    border: 3px solid red;
+}
+
+.item2 {
+    border: 3px solid blue;
+}
+
+.item3 {
+    border: 3px solid green;
+}

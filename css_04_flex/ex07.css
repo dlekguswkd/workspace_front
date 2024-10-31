@@ -22,21 +22,33 @@
     flex-wrap: wrap;
 }
 
+/* flex-grow: 속성값 ()숫자
+여백을 숫자 : 숫자 의 비율로 갖는거임
+전체비율이 아닌 여백을 어느 비율로 나눠가질래 임
+여백을 남았을때 나눠 가지는 비율
+따라서 전체 폭은 다를수있음 컨텐츠의 넓이때문에 */
+
 .item1 {
     border: 3px solid red;
     /* width: 200px;   시작했을때 무조건 고정*/
     /* flex-basis: 200px; 켜졌을때 지금만 외부가 변하면 변함*/
     /* flex-basis: auto;  기본값 자동 컨텐츠양만큼 알아서 */
     /* flex-basis: 0;  가로축을 0으로 계산 보이는건 컨텐츠양만큼  */
-    width: 30%;
+    /* width: 30%; */
+    flex-grow: 1;
+    flex-basis: 0;   /* 이걸 같이 해주면 원래 컨텐츠의 비율 상관없이 똑같은 폭을 가짐  */
 }
 
 .item2 {
     border: 3px solid blue;
-    width: 30%;
+    /* width: 30%; */
+    flex-grow: 2;
+    flex-basis: 0;
 }
 
 .item3 {
     border: 3px solid green;
-    width: 36%;
+    /* width: 36%; */
+    flex-grow: 3;
+    flex-basis: 0;
 }

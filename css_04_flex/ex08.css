@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.container {
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
+
+
+/* flex-shink: 속성값(숫자)
+여백이 모자를때 줄어드는 비율
+숫자가 클수록 더 많이 줄어듬 
+
+단 부모에 flex-wrap: wrap; 이게 있으면
+아래로 내려감
+부모께 더 강함
+*/
+
+.item1 {
+    border: 3px solid red;
+    flex-basis: 290px;
+    flex-shrink: 1;
+}
+
+.item2 {
+    border: 3px solid blue;
+    flex-basis: 290px;
+    flex-shrink: 1;
+}
+
+.item3 {
+    border: 3px solid green;
+    flex-basis: 290px;
+    flex-shrink: 2;
+}
