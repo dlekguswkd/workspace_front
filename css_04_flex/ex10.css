@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* 레이아웃 */
+#wrap {
+    /* 큰건 상관없이 늘어나지만 이정도가 되면 그냥 가려지는 */
+    min-width: 1000px;      
+    margin: 0 auto;  /*   늘 가운데로     */
+    /* border: 1px solid black; */
+}
+
+#wrap header {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#wrap nav {
+    border-bottom: 1px solid black;
+}
+
+#wrap main {
+    background-color: salmon;
+}
+
+#wrap footer {
+    background-color: greenyellow;
+}
+
+
+/* header --------------------------- */
+/* 로고 */
+#wrap header h1>a {
+    font-weight: bold;
+    font-size: 36px;
+    color: #a8b424;
+}
+
+/* 로그인, 회원가입버튼 */
+#wrap header ul {
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#wrap header .btn-s {
+    padding: 4px 6px;      /* 글자수의 따라 버튼크기가 커지게 */
+    margin-left: 5px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+
+/* nav --------------------------- */
+#wrap nav ol {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#wrap nav ol>li {
+    font-size: 20px;
+    font-weight: bold;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;   /*  글자 가운데 위치  */
+}
